@@ -1,1 +1,3 @@
 # TheAntsBot
+Python
+OpenCV
