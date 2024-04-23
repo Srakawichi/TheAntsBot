@@ -13,13 +13,13 @@ class MachenHelper:
         self.is_machen_running = True  # Setze den Status auf "ausgeführt"
         
         print("Funktion: blattschneider")
-        pyautogui.moveTo(suchen("Image\leereLeiste.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/leereLeiste.png", 0.8), duration=1)
         pyautogui.click()  
         time.sleep(2)
-        pyautogui.moveTo(suchen("Image\transportierenM.png", 0.7), duration=1)
+        pyautogui.moveTo(suchen("Image/transportierenM.png", 0.7), duration=1)
         pyautogui.click()
         time.sleep(2)
-        pyautogui.moveTo(suchen("Image\transportierenButton.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/transportierenButton.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(20)
         
@@ -33,16 +33,16 @@ class MachenHelper:
         self.is_machen_running = True  # Setze den Status auf "ausgeführt"
         print("Funktion: armee1")
             
-        pyautogui.moveTo(suchen("Image\armee1.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/armee1.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(2)
-        pyautogui.moveTo(suchen("Image\ausbilden.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/ausbilden.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(2)
-        pyautogui.moveTo(suchen("Image\ausbildenStart.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/ausbildenStart.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(2)
-        pyautogui.moveTo(suchen("Image\leave.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/leave.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(2)
         
@@ -56,16 +56,16 @@ class MachenHelper:
         self.is_machen_running = True  # Setze den Status auf "ausgeführt"
         print("Funktion: armee2")
         
-        pyautogui.moveTo(suchen("Image\armee2.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/armee2.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(2)
-        pyautogui.moveTo(suchen("Image\ausbilden.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/ausbilden.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(2)
-        pyautogui.moveTo(suchen("Image\ausbildenStart.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/ausbildenStart.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(2)
-        pyautogui.moveTo(suchen("Image\leave.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/leave.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(2)
         
@@ -80,16 +80,16 @@ class MachenHelper:
         self.is_machen_running = True  
         print("Funktion: armee3")
             
-        pyautogui.moveTo(suchen("Image\armee3.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/armee3.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(2)
-        pyautogui.moveTo(suchen("Image\ausbilden.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/ausbilden.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(2)
-        pyautogui.moveTo(suchen("Image\ausbildenStart.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/ausbildenStart.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(2)
-        pyautogui.moveTo(suchen("Image\leave.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/leave.png", 0.8), duration=1)
         pyautogui.click()
         
         self.is_machen_running = False
@@ -101,13 +101,13 @@ class MachenHelper:
         
         self.is_machen_running = True  # Setze den Status auf "ausgeführt"
         print("Funktion: Essbereich")
-        pyautogui.moveTo(suchen("Image\essbereich.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/essbereich.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(2)
-        pyautogui.moveTo(suchen("Image\transportieren.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/transportieren.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(2)
-        pyautogui.moveTo(suchen("Image\transportierenButton.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/transportierenButton.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(2)
         
@@ -121,34 +121,34 @@ class MachenHelper:
         
         self.is_machen_running = True  
         print("Funktion: machen4")
-        pyautogui.moveTo(suchen("Image\kampf.png", 0.7), duration=1)
+        pyautogui.moveTo(suchen("Image/kampf.png", 0.7), duration=1)
         pyautogui.click()
         time.sleep(2)  
-        pyautogui.moveTo(suchen("Image\welt.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/welt.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(2)
         
-        if not suchen("Image\lupe.png", 0.8):
+        if not suchen("Image/lupe.png", 0.8):
             print("lupe nicht gefunden")
-            pyautogui.moveTo(suchen("Image\Einheit1.png", 0.8), duration=1)
+            pyautogui.moveTo(suchen("Image/Einheit1.png", 0.8), duration=1)
             pyautogui.click()
-            pyautogui.moveTo(suchen("Image\welt.png", 0.8), duration=1)
+            pyautogui.moveTo(suchen("Image/welt.png", 0.8), duration=1)
             pyautogui.click()
             time.sleep(2)
             
-        pyautogui.moveTo(suchen("Image\lupe.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/lupe.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(2)
-        pyautogui.moveTo(suchen("Image\gehen.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/gehen.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(5)
-        pyautogui.moveTo(suchen("Image\orchideenmantisA.png", 0.7), duration=1)
+        pyautogui.moveTo(suchen("Image/orchideenmantisA.png", 0.7), duration=1)
         pyautogui.click()
         time.sleep(2)
-        pyautogui.moveTo(suchen("Image\angreifen.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/angreifen.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(2)
-        pyautogui.moveTo(suchen("Image\marsch.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/marsch.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(2)
         pyautogui.press('space')
@@ -163,9 +163,9 @@ class MachenHelper:
         self.is_machen_running = True
         
         print("Funktion: Ausgebildete Einheiten werden eingesammelt")
-        pyautogui.moveTo(suchen("Image\einheitenSammeln.png", 0.8), duration=1)
-        while not suchen("Image\einheitenSammeln.png", 0.8):
-            pyautogui.moveTo(suchen("Image\einheitenSammeln.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/einheitenSammeln.png", 0.8), duration=1)
+        while not suchen("Image/einheitenSammeln.png", 0.8):
+            pyautogui.moveTo(suchen("Image/einheitenSammeln.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(2)
         
@@ -178,17 +178,17 @@ class MachenHelper:
         self.is_machen_running = True
         
         print("Funktion: machen6")
-        pyautogui.moveTo(suchen("Image\VIP.png", 0.9), duration=1)
+        pyautogui.moveTo(suchen("Image/VIP.png", 0.9), duration=1)
         pyautogui.click()
         time.sleep(2)
-        pyautogui.moveTo(suchen("Image\pruefen.png", 0.9), duration=1)
+        pyautogui.moveTo(suchen("Image/pruefen.png", 0.9), duration=1)
         pyautogui.click()
         time.sleep(2)
-        pyautogui.moveTo(suchen("Image\VIP_Sammeln.png", 0.9), duration=1)
+        pyautogui.moveTo(suchen("Image/VIP_Sammeln.png", 0.9), duration=1)
         pyautogui.click()
         time.sleep(2)
         pyautogui.click()
-        pyautogui.moveTo(suchen("Image\leave.png", 0.9), duration=1)
+        pyautogui.moveTo(suchen("Image/leave.png", 0.9), duration=1)
         pyautogui.click()
         time.sleep(2)
         
@@ -214,16 +214,16 @@ class MachenHelper:
         self.is_machen_running = True
         
         print("Funktion: Spezial Ameisen")
-        pyautogui.moveTo(suchen("Image\spezialAmeisen.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/spezialAmeisen.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(2)
-        pyautogui.moveTo(suchen("Image\spezial_gratis.png", 0.6), duration=1)
+        pyautogui.moveTo(suchen("Image/spezial_gratis.png", 0.6), duration=1)
         pyautogui.click()
         time.sleep(5)
-        pyautogui.moveTo(suchen("Image\spezial_back.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/spezial_back.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(2)
-        pyautogui.moveTo(suchen("Image\spezial_back.png", 0.8), duration=1)
+        pyautogui.moveTo(suchen("Image/spezial_back.png", 0.8), duration=1)
         pyautogui.click()
         time.sleep(2)
         
@@ -244,4 +244,4 @@ class MachenHelper:
         
 if __name__ == "__main__":
     machen_helper = MachenHelper()
-    machen_helper.test()
+    machen_helper.blattschneider()
